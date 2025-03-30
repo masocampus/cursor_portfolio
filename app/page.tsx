@@ -101,14 +101,14 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* 네비게이션 */}
-      <Navbar logoText="홍길동 포트폴리오" items={navItems} />
+      <Navbar logoText="Masocampus 포트폴리오" items={navItems} />
 
       {/* 메인 콘텐츠 */}
       <main className="container mx-auto pt-24 px-6">
         {/* 소개 섹션 */}
         <section id="about" className="py-20">
           <Profile 
-            name="홍길동"
+            name="Masocampus"
             role="프론트엔드 개발자"
             description="웹 개발자로서 사용자 경험을 중요시하는 개발자입니다. 창의적인 문제 해결과 효율적인 코드 작성을 지향합니다."
           />
@@ -131,7 +131,7 @@ export default function Home() {
       </main>
 
       {/* 푸터 */}
-      <Footer name="홍길동" socialLinks={socialLinks} />
+      <Footer name="Masocampus" socialLinks={socialLinks} />
     </div>
   );
 }

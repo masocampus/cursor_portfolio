@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "홍길동 - 포트폴리오",
-  description: "웹 개발자 홍길동의 포트폴리오 웹사이트입니다. 프로젝트, 기술 스택 및 연락처 정보를 확인하세요.",
+  title: "Masocampus - 포트폴리오",
+  description: "웹 개발자 Masocampus의 포트폴리오 웹사이트입니다. 프로젝트, 기술 스택 및 연락처 정보를 확인하세요.",
 };
 
 export default function RootLayout({
